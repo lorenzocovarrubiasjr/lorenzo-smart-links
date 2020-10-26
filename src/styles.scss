@@ -33,14 +33,17 @@ body {
     }
 
     #main-tag {
-     padding: 15px 10% 5px;;
+      margin: 15px;
+     padding: 5px 10% 5px;
+     
       
       text-align: center;
       font-weight: bold;
       
       a {
-        color: white;
         text-decoration: none;
+        color: white;
+        animation: glow 1s ease-in-out infinite alternate;
       }
     }
 
@@ -84,13 +87,13 @@ body {
    
   }
 
-
-   
-
-
-  
 }
 
-
-
-
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #7be600, 0 0 40px #7be600, 0 0 50px #36e600, 0 0 60px #41e600, 0 0 70px #d1f3d8;
+  }
+  to {
+    text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 30px #4dffa6, 0 0 40px #4dff82, 0 0 50px #8eff4d, 0 0 60px #6bff4d, 0 0 70px #17b302, 0 0 80px #068102;
+  }
+}
