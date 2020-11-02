@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#videoBackground {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+#lorenzo-smart-links-page {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+#avatar {
+  margin: 25px auto 0px;
+  width: 150px;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px rgb(247, 247, 247);
+  padding: 2px;
+}
+
+#main-tag-link {
+  text-decoration: none;
+  color: white;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+p {
+  text-align: center;
+}
+
+#main-tag {
+  margin: 15px;
+  padding: 5px 10% 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#introduction {
+  margin-bottom: 24px;
+  background-color: black;
+  color: white;
+}
+
+#listContainer {
+  margin: 10px 0px;
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.linkBox {
+  background-color: white;
+  color: black;
+  box-sizing: border-box;
+  width: 75%;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linkBox:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px grey;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #7be600,
+      0 0 40px #7be600, 0 0 50px #36e600, 0 0 60px #41e600, 0 0 70px #d1f3d8;
+  }
+  to {
+    text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 30px #4dffa6, 0 0 40px #4dff82,
+      0 0 50px #8eff4d, 0 0 60px #6bff4d, 0 0 70px #17b302, 0 0 80px #068102;
+  }
+}
