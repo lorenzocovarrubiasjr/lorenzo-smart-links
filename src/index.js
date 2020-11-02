@@ -1,5 +1,3 @@
-import "./styles.scss";
-
 var vid = document.getElementById("videoBackground");
 vid.playbackRate = 0.5;
 
