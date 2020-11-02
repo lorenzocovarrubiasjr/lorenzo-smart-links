@@ -93,3 +93,16 @@ a {
       0 0 50px #8eff4d, 0 0 60px #6bff4d, 0 0 70px #17b302, 0 0 80px #068102;
   }
 }
+
+@media only screen and (max-width: 850px) {
+  #lorenzo-smart-links-page {
+    width: 400px;
+  }
+
+  #listContainer {
+    width: 400px;
+  }
+  .linkBox {
+    width: 400px;
+  }
+}
