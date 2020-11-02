@@ -4,11 +4,8 @@ var vid = document.getElementById("videoBackground");
 vid.playbackRate = 0.5;
 
 const links = [
-  { text: "Pure Fire Ent.", link: "https://www.purefire.world" },
-  { text: "Pure Fire Merch", link: "https://www.spotify.com/witeout777" },
-  { text: "1stRdKo Clothing", link: "https://www.1strdko.com" },
-  { text: "Kounter Clothing", link: "https://www.kounterclothing.com" },
-  { text: "Red Caves Real Estate", link: "https://www.kounterclothing.com" }
+  { text: "Amazon Clone", link: "https://www.purefire.world" },
+  { text: "Oil & Gas Dashboard", link: "https://www.spotify.com/witeout777" }
 ];
 
 let linksDiv = document.createElement("div");
